@@ -96,14 +96,13 @@ public class Automata {
     {
         return Double.parseDouble(str.strip());
     }
-    public Automata() {
+    public Automata()
+    {
         type = TokenType.NONE;
-        value1 = Double.NaN;
-        value2 = Double.NaN;
-        lineStr = null;
     }
     public void run()
     {
+
         while (true) {
         getExpression();
         try {
